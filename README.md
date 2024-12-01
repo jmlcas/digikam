@@ -1,4 +1,8 @@
 # digiKam
 
-Ver en "localhost:4000"
+Ver en "http://localhost:3000"
+
+Ver en "https://localhost:3001"
+
+
 
