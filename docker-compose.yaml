@@ -4,13 +4,13 @@ services:
     image: lscr.io/linuxserver/digikam:latest
     container_name: digikam
     ports:
-      - "4000:3000" 
-      - "4001:3001"
+      - "3000:3000" 
+      - "3001:3001"
     restart: unless-stopped
     environment:
       - USER_ID=1000
       - GROUP_ID=1000
-      - TZ=Europe/Madridín
+      - TZ=Europe/Madrid
       - KEYBOARD=es-es-qwerty 
     volumes:
       - ./config:/config
